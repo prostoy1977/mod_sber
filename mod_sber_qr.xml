@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" method="upgrade">
+    <name> Sber_qr_code </name>
+    <authtor> Ved studio ChIK </authtor>
+    <version> 1.0 </version>
+    <description> MOD_LATEST_SBER_XML_QR </description>
+<files>
+<filename name='mod_sber_qr'><mod_sber_qr.php></filename>
+    <filename>helper.php</filename>
+    <filename>index.html</filename>
+    <filename>mod_sber_qr.xml</filename>
+    <filename>css/index.html</filename>
+    <filename>css/style.css</filename>
+    <filename>js/index.html.js</filename>
+    <filename>js/show.js</filename>
+</files>
+<language folder="language">
+    <language teg="ru-RU">ru-RU.mod_sber_qr.ini</language>
+    <language teg="ru-RU">ru-RU.mod_sber_qr.sys.ini</language>
+
+</language>
+<config>
+    <fields name="params">
+        <fieldset name="basic">
+            <field type="text"
+                   name="moduleclass_sfx"
+                   label="MOD_MODULECLASS_SFX_LABEL"
+                   desc="MOD_MODULECLASS_SFX_DESC" />
+            <field type="text"
+                   name="num_users"
+                   label="MOD_NUM_USERS_LABEL"
+                   disc="MOD_NUM_USERS_DESC" />
+                   
+        </fieldset>
+    </fields>
+</config>
+</extension>
